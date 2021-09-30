@@ -361,7 +361,7 @@ transition: all 0.35s; /*Tempo, após passado o mouse, vai carregando a cor no t
 visibility: hidden;
 ```
 
-## width: (Largura)
+## width: (Largura )
 
 ```js
 width: 100%;
