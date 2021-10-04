@@ -147,7 +147,7 @@ flex-direction: row;
 flex-wrap: wrap;
 ```
 
-## flex: 1; (Pegar o espaço disponivel)
+## flex: 1; (Pegar o espaço disponivel, quer dizer que este elemento box, ele é flexivel, quer dizer ele vai flexionar sua largura e altura, para sempre caber no container pai)
 
 ```js
 flex: 1;
