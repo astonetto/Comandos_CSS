@@ -1,6 +1,6 @@
 # Comandos CSS
 
-## align-items: center; (Centraliza Verticalmente)
+## align-items: center; (Centraliza, no meio), exemplo se você utilizar o flex-direction: column;, ai você vai centralizar verticalmente, se usar o, flex-direction: row; você irá centralizar horizontalmente, utilizando o comando abaixo
 
 ```js
 align-items: center;
