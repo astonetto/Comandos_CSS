@@ -129,11 +129,17 @@ display: none; /*Ocultar*/
 }
 ```
 
-## flex-direction: (Itens um abaixo do outro)
+## flex-direction: column; (Itens um abaixo do outro, verticalmente)
 
 ```js
 flex-direction: column;
 ```
+## flex-direction: row; (Itens um do lado do outro, horizontalmente)
+
+```js
+flex-direction: row;
+```
+
 
 ## flex-wrap: wrap; (Quebra a linha assim que um dos flex itens não puder mais ser compactado)
 
