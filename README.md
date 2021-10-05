@@ -403,6 +403,12 @@ outline: none;
 ```js
 padding: 0 15px;
 ```
+## padding-Horizontal: 
+(Distancia entre os lados, horizontal)
+
+```js
+padding-horizontal: 20;
+```
 
 ## position: relative; 
 (As propriedade position pode assumir 4 valores diferentes: Static, Relative, Absolute e Fixed Utilizando o position relative o elemento passa a aceitar as propriedades Top, Botton, Left e Rigth. Com elas você pode alterar o posicionamento do elemento*/ overflow: visible; /*A propriedade overflow define o comportamento de um elemento quando suas dimensões são excedidas pelo conteúdo Hidden, O Conteudo excedido não ficará visível)
