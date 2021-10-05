@@ -369,6 +369,11 @@ max-width: 415px;
 ```js
 min-height: 500px;
 ```
+se você colocar 100vh, ai vai pegar toda a area disponivel da tela.
+```js
+min-height: 100vh;
+```
+
 ## min-width: 
 (Largura minima)
 
