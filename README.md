@@ -1,12 +1,41 @@
 # Comandos CSS
 
 ## align-items: center; 
-(Centraliza, no meio), exemplo se você utilizar o flex-direction: column;, ai você vai centralizar verticalmente, se usar o, flex-direction: row; você irá centralizar horizontalmente, utilizando o comando abaixo
+(Centraliza, no meio), exemplo se você utilizar o flex-direction: column;, ai você vai centralizar verticalmente, se usar o, flex-direction: row; você irá centralizar horizontalmente, utilizando o comando abaixo, Obs: Só que você tem que ter pelo menos uma linha para fazer o alinhamento
 
 ```js
 align-items: center;
 ```
+## align-content: center; 
+(Centraliza, no meio), exemplo se você utilizar o flex-direction: column;, ai você vai centralizar verticalmente, se usar o, flex-direction: row; você irá centralizar horizontalmente, utilizando o comando abaixo, Obs: Só que neste caso, pode alinhar mais de uma linha
 
+```js
+align-content: center;
+```
+## align-content: space-between; 
+(Fazer o alinhamento entre as linhas do elemento)
+
+```js
+align-content: space-between;
+```
+## align-items: flex-start; 
+(Centraliza, no começo, em cima do lado esquerdo.
+
+```js
+align-items: flex-start;
+```
+## align-items: flex-end; 
+(Centraliza, no final em cima, do lado direito).
+
+```js
+align-items: flex-start;
+```
+## align-self: flex-end; 
+(Centraliza, do lado direito, somente um elemento, os demais ficaram, alinhados).
+
+```js
+align-items: flex-start;
+```
 ## animation-name: animacao; 
 (animation-name propriedade especifica um nome para a animação @keyframes)
 
@@ -164,7 +193,8 @@ flex-direction: row;
 
 
 ## flex-wrap: wrap; 
-(Quebra a linha assim que um dos flex itens não puder mais ser compactado)
+(Quebra, do elemento, quando passar da tela ele automaticamente, vai para baixo, exemplo que você tem um alinhamento 
+horizontal e não cabe na tela, quanto você faz este comando ele ajusta automaticamente para parte de baixo.
 
 ```js
 flex-wrap: wrap;
@@ -232,7 +262,13 @@ height: 100%;
 ```
 
 ## justify-content: space-between; 
-(Dos itens que tem dentro do header, vai ter espaços entre eles, ou seja joga um para um lado o outro para o outro e tera um espaço entre eles)
+(Vai deixar um espaço igual para todos os elementos, só no primeiro em cima e embaixo que não tem espaço)
+
+```js
+justify-content: space-between;
+```
+## justify-content: space-around; 
+(Vai deixar um espaço igual para todos os elementos, só no primeiro em cima vai ter um espaço também igual e embaixo tambem vai ter um espaço igual)
 
 ```js
 justify-content: space-between;
@@ -332,6 +368,12 @@ max-width: 415px;
 
 ```js
 min-height: 500px;
+```
+## min-width: 
+(Largura minima)
+
+```js
+min-width: 500px;
 ```
 
 ## opacity: 0; 
