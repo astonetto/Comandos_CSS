@@ -408,6 +408,12 @@ outline: none;
 ```js
 padding: 0 15px;
 ```
+## padding-botton: 
+(Descolar o texto da borda)
+
+```js
+padding-botton: 20px;
+```
 ## padding-Horizontal: 
 (Distancia entre os lados, horizontal)
 
