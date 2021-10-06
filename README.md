@@ -402,12 +402,18 @@ opacity: 0;
 ```js
 opacity: 1;
 ```
-
 ## outline: none; 
 (Esboço)
 
 ```js
 outline: none;
+```
+
+## outline: 0;
+(Tirando todo o tipo de animação, apos clicado em cima)
+
+```js
+outline: 0;
 ```
 
 ## padding: 
