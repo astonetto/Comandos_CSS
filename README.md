@@ -64,6 +64,14 @@ animation-iteration-count: infinite;
 background-color: #ededed;
 ```
 
+## background: transparent; 
+(Tirando a cor de fundo, ficando transparent)
+
+```js
+background: transparent;
+
+```
+
 ## border-bottom:
 (Borda botton)
 
