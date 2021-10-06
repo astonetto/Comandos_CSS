@@ -455,6 +455,13 @@ text-align: center;
 ```js
 text-decoration: none;
 ```
+## text-decoration: line-through;
+(Criar uma linha, riscando o texto)
+
+```js
+text-decoration: line-through;
+```
+
 
 ## transition: 
 (Tempo, após passado o mouse, vai carregando a cor no tempo)
