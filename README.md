@@ -222,7 +222,7 @@ flex: 1 1 200px; /*Flex: Espandir, Ficar menor, Base para a foto*/
 ```
 
 ## font: 
-(Tipo de fonte)
+(Espessura) (Tipo de fonte)
 
 ```js
 font: normal 15 pt Arial
@@ -369,6 +369,52 @@ margin-top: 5px;
 
 ```js
 max-width: 415px;
+```
+## @media
+Media query, ele serve para deixar seu site responsivo, de acordo com a necessidade do seu projeto.
+No google crome, quando você clicar com a tecla f12, do lado direito da tela vai aparecer umas opções, 
+você vai clicar na opção aonde parece um quadrado e dentro um formato de celular, quando você clicar a primeira vez,
+você poderá diminuir e aumentar a tela manualmente e ver o tamanho da tela em pixel, se clicar outra vez, vai aparecer 
+vairios tipos de modelos de celular e tablet, para você deixar seu site responsivo, caso não tiver todos os modelos é só clicar em
+editar, e adicionar outros modelos de celular e tablet. Isto é uma ferramenta do google crome.
+
+Media query, estilizando o CSS, dentro de um arquivo .CSS (Projeto básico do React, após criado o projeto, 1 Opção)
+
+/*Dimensões de um Ipad, 768px / 1024px*/
+Com este exemplo, está configurado um Ipad, quando tiver configurado, você tem que dizer o que vai fazer.
+
+Arquivo App.js
+
+```js
+//Importando o react
+import React from "react";
+import "./App.css";
+
+function App_function_Component() {
+  return (
+    <div className="App_function_Component">
+     <h1>Olá Mundo</h1>
+    </div>
+  );
+}
+
+//Exportando Componente
+export default App_function_Component;
+
+```
+
+Arquivo App.css
+
+```js
+@media (min-width: 768px) and (max-width: 1024px) {
+  .App_function_Component {
+    background-color: blue; 
+  }
+  .app_function_component,
+  h1 {
+    color: white;
+  }
+}
 ```
 
 ## min-height: 
