@@ -404,9 +404,39 @@ export default App_function_Component;
 ```
 
 Arquivo App.css
+Neste exemplo, repare que tem a minima largura (min-width: 768px) e maxima largura (max-width: 1024px)
 
 ```js
 @media (min-width: 768px) and (max-width: 1024px) {
+  .App_function_Component {
+    background-color: blue; 
+  }
+  .app_function_component,
+  h1 {
+    color: white;
+  }
+}
+```
+
+Mas você poria também determinar, somente a largura máxima, depois que passar do valor da largura máxima, 
+não faça mais nada, abaixo do valor determinado, vai fazer o que você desejar
+
+```js
+@media (max-width: 100px) {
+  .App_function_Component {
+    background-color: blue; 
+  }
+  .app_function_component,
+  h1 {
+    color: white;
+  }
+}
+```
+Aqui você pode determinar a largura mínima, como funciona, quando passar acima do valor determinado da largura mínima, vai fazer o que você deseja, 
+abaixo do valor determinado da largura minima não faça nada
+
+```js
+@media (min-width: 100px) {
   .App_function_Component {
     background-color: blue; 
   }
