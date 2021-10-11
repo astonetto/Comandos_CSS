@@ -375,7 +375,7 @@ Media query, ele serve para deixar seu site responsivo, de acordo com a necessid
 No google crome, quando você clicar com a tecla f12, do lado direito da tela vai aparecer umas opções, 
 você vai clicar na opção aonde parece um quadrado e dentro um formato de celular, quando você clicar a primeira vez,
 você poderá diminuir e aumentar a tela manualmente e ver o tamanho da tela em pixel, se clicar outra vez, vai aparecer 
-vairios tipos de modelos de celular e tablet, para você deixar seu site responsivo, caso não tiver todos os modelos é só clicar em
+varios tipos de modelos de celular e tablet, para você deixar seu site responsivo, caso não tiver todos os modelos é só clicar em
 editar, e adicionar outros modelos de celular e tablet. Isto é uma ferramenta do google crome.
 
 Media query, estilizando o CSS, dentro de um arquivo .CSS (Projeto básico do React, após criado o projeto, 1 Opção)
