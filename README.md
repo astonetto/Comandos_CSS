@@ -484,6 +484,37 @@ export const Title = styled.h1`
 `;
 ```
 
+Agora para você determinar quando o celular está em pé ou deitado:
+Landscape, celular em pé.
+Portrait celular deitado.
+
+Arquivo, style.js
+
+```js
+import styled  from "styled-components"
+
+export const Geral = styled.div`
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+`;
+
+export const Title = styled.h1`
+text-align: center;
+color: white;
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (orientation: landscape) {
+    background-color: orange; 
+  }
+  @media (orientation: portrait) {
+    background-color: blue; 
+  }
+}
+`;
+```
+
 ## min-height: 
 (Altura minima)
 
