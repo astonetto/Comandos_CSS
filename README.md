@@ -620,12 +620,12 @@ border-color: #850909; /*Cor da borda após passado em cima do botão*/
 transition: all 0.35s; /*Tempo, após passado o mouse, vai carregando a cor no tempo*/
 ```
 ## Unidades de medida do CSS
-
+```js
 Layout Fixo px - Pixels
 Layout Fluido % - Porcentagem auto - Automática vh - Viewport Height vw - Viewport Width
 Textos fixos 1px = 0.75pt 16px = 12pt
 Texto fluidos em - multiplicado pelo pai rem - multiplicado pelo root
-
+```
 ## visibility: hidden;
  (O elemento está oculto mas ainda ocupa espaço)
 
