@@ -477,7 +477,6 @@ Arquivo, style.js
 import styled  from "styled-components"
 
 export const Title = styled.h1`
-
   @media (min-width: 768px) and (max-width: 1024px) {
     color: white;
     background-color: blue; 
