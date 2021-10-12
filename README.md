@@ -446,6 +446,44 @@ abaixo do valor determinado da largura minima não faça nada
   }
 }
 ```
+Se você for usar o media query com styled component, aqui está um exemplo:
+
+Comando para instalar o styled component
+
+```js
+yarn add styled-components
+```
+
+Arquivo App.js
+
+```js
+import React from "react";
+import * as St from "./style";
+
+function App() {
+  return (
+    <div>
+      <St.Title>Hello Word</St.Title>
+    </div>
+  );
+}
+
+export default App;
+```
+
+Arquivo, style.js
+
+```js
+import styled  from "styled-components"
+
+export const Title = styled.h1`
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    color: white;
+    background-color: blue; 
+  }
+`;
+```
 
 ## min-height: 
 (Altura minima)
