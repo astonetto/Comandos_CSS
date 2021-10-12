@@ -576,6 +576,19 @@ position: fixed;
 text-align: center;
 ```
 
+## text-align: left; 
+(Centralizar do lado esquerdo)
+
+```js
+text-align: left; 
+```
+## text-align: right; 
+(Centralizar do lado direito)
+
+```js
+text-align: right; 
+```
+
 ## text-decoration: none; 
 ([none (Sem decoração)], [underline red (sublinhado red)], [underline wavy cor (Sublinhado ondulado cor)] )
 
